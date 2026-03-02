@@ -10,11 +10,11 @@ export const statesData = {
       "Karnataka has the most waterfalls in India, including Jog Falls."
     ],
     places: [
-      { name: "Hampi", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80", desc: "UNESCO ruins of the Vijayanagara Empire." },
-      { name: "Mysore Palace", img: "https://images.unsplash.com/photo-1590766948512-481753365a32?auto=format&fit=crop&w=800&q=80", desc: "A stunning Indo-Saracenic palace." },
-      { name: "Coorg", img: "https://images.unsplash.com/photo-1588665715104-e538f972b220?auto=format&fit=crop&w=800&q=80", desc: "India's coffee capital." },
-      { name: "Gokarna", img: "https://images.unsplash.com/photo-1590050854291-7299583f707f?auto=format&fit=crop&w=800&q=80", desc: "Famous for Om Beach and temples." },
-      { name: "Jog Falls", img: "https://images.unsplash.com/photo-1625505826533-5c80aca7d157?auto=format&fit=crop&w=800&q=80", desc: "Second-highest plunge waterfall in India." }
+      { name: "Hampi", img: "https://media.istockphoto.com/id/1270774148/photo/hampi-stone-chariot-the-antique-stone-art-piece-from-a-unique-angle-with-an-amazing-sky.jpg?s=170667a&w=0&k=20&c=xPhidSF3KDKwMCoqQQLF0vM4MRYg2jT0C4NEiqPsLqg=", desc: "UNESCO ruins of the Vijayanagara Empire." },
+      { name: "Mysore Palace", img: "https://cdn.britannica.com/27/242227-050-48358A10/Mysore-Palace-Mysuru-Karnataka-India.jpg", desc: "A stunning Indo-Saracenic palace." },
+      { name: "Coorg", img: "https://tse3.mm.bing.net/th/id/OIP.VqAdo7UqLt5nOdZIa8EdhQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", desc: "India's coffee capital." },
+      { name: "Gokarna", img: "https://static.thehosteller.com/blogimage/Half%20Moon%20Beach-1688713942927.JPG", desc: "Famous for Om Beach and temples." },
+      { name: "Jog Falls", img: "https://th.bing.com/th/id/R.c5e9eb016578d451702c31dd5a58494e?rik=TEr%2fFUlYvNmkNg&riu=http%3a%2f%2fwww.pratapj.com%2fpxshv1%2fwp-content%2fuploads%2fjogada-gundi-or-jog-falls_pj.jpg&ehk=8W6VCD1JNVScs5N6%2fQvoeCA%2fXE%2bd17F5mN7cn3XbWRM%3d&risl=&pid=ImgRaw&r=0", desc: "Second-highest plunge waterfall in India." }
     ],
     itinerary: [
       { day: "Day 1", name: "Hampi", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80", pos: { x: 150, y: 550 } },
