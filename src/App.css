@@ -339,3 +339,65 @@ header h1 span {
   left: 0;
   color: var(--primary);
 }
+.bg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* Keep background at the very bottom */
+  z-index: -1; 
+  background: radial-gradient(circle at center, #1a1a2e 0%, #050505 100%);
+}
+
+.map-wrapper {
+  position: relative;
+  /* Higher than background, lower than card */
+  z-index: 10; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  height: 80vh;
+}
+
+.info-card.glass-panel {
+  position: fixed;
+  right: 30px;
+  top: 120px;
+  /* Keep card at the very top */
+  z-index: 1000; 
+  /* ... rest of your styles ... */
+}
+
+.bg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* CRITICAL: Negative value to stay behind the map */
+  background: radial-gradient(circle at center, #1a1a2e 0%, #050505 100%);
+  pointer-events: none; /* Allows clicks to pass through to the map */
+}
+
+/* Ensure the map container has a physical size and is on top */
+.map-wrapper {
+  position: relative;
+  z-index: 10; /* Higher than background */
+  width: 100%;
+  height: 85vh; /* Set a specific height so it doesn't collapse */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.india-svg {
+  width: auto;
+  height: 90%; /* Forces the SVG to take up space in the wrapper */
+  max-width: 95%;
+  overflow: visible; /* Prevents paths from being clipped */
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
+}
