@@ -1,5 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import IndianMap from './components/IndianMap';
+import FeatureGrid from './components/FeatureGrid';
+import ThemedTours from './components/ThemedTours';
+import PromoBanner from './components/PromoBanner';
 import { motion } from 'framer-motion';
 import './App.css';
 
@@ -87,43 +90,9 @@ function App() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <section className="glass-section">
-            <h2>Upcoming Cultural Events</h2>
-            <div className="event-card">
-              <h3>Mysore Dasara</h3>
-              <p>📍 Karnataka &nbsp;|&nbsp; Oct 2026</p>
-              <p>Experience the "Nada Habba" with grand processions and a lit-up palace.</p>
-            </div>
-            <div className="event-card">
-              <h3>Hampi Utsav</h3>
-              <p>📍 Karnataka &nbsp;|&nbsp; Nov 2026</p>
-              <p>A mega cultural extravaganza amidst the ruins of the Vijayanagara Empire.</p>
-            </div>
-            <div className="event-card">
-              <h3>Hyderabad Biryani Festival</h3>
-              <p>📍 Telangana &nbsp;|&nbsp; Dec 2026</p>
-              <p>A culinary celebration of the iconic Hyderabadi dum biryani.</p>
-            </div>
-          </section>
-
-          <section className="glass-section">
-            <h2>Recommended Itineraries</h2>
-            <div className="plan-card">
-              <h3>The Heritage Triangle</h3>
-              <p>7 Days &nbsp;|&nbsp; Hampi › Badami › Pattadakal</p>
-              <p>A deep dive into Chalukyan and Vijayanagara architectural marvels.</p>
-            </div>
-            <div className="plan-card">
-              <h3>Southern Coast Explorer</h3>
-              <p>5 Days &nbsp;|&nbsp; Gokarna › Murudeshwar › Mangalore</p>
-              <p>Perfect blend of pristine beaches and spiritual monuments.</p>
-            </div>
-            <div className="plan-card">
-              <h3>Temple Trail of Tamil Nadu</h3>
-              <p>6 Days &nbsp;|&nbsp; Chennai › Madurai › Rameshwaram</p>
-              <p>Explore the grandeur of ancient Dravidian architecture.</p>
-            </div>
-          </section>
+          <FeatureGrid />
+          <ThemedTours />
+          <PromoBanner />
         </motion.div>
       </main>
 
