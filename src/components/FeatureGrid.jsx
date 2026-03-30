@@ -2,11 +2,11 @@ import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const destinations = [
-  { id: 1, name: 'Jaipur', state: 'Rajasthan', img: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80', desc: 'The Pink City' },
-  { id: 2, name: 'Varanasi', state: 'Uttar Pradesh', img: 'https://images.unsplash.com/photo-1561361513248-9c01d1f0bb50?auto=format&fit=crop&w=800&q=80', desc: 'Spiritual Capital' },
-  { id: 3, name: 'Munnar', state: 'Kerala', img: 'https://images.unsplash.com/photo-1602216056096-3b40cc0e0b69?auto=format&fit=crop&w=800&q=80', desc: 'Tea Gardens' },
-  { id: 4, name: 'Leh', state: 'Ladakh', img: 'https://images.unsplash.com/photo-1623547053597-9092fc51bbd3?auto=format&fit=crop&w=800&q=80', desc: 'High Desert City' },
-  { id: 5, name: 'Hampi', state: 'Karnataka', img: 'https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&w=800&q=80', desc: 'Ancient Ruins' }
+  { id: 1, name: 'Jaipur', state: 'Rajasthan', img: '/images/dest-jaipur.jpg', desc: 'The Pink City' },
+  { id: 2, name: 'Varanasi', state: 'Uttar Pradesh', img: '/images/dest-varanasi.jpg', desc: 'Spiritual Capital' },
+  { id: 3, name: 'Munnar', state: 'Kerala', img: '/images/dest-munnar.jpg', desc: 'Tea Gardens' },
+  { id: 4, name: 'Leh', state: 'Ladakh', img: '/images/dest-leh.jpg', desc: 'High Desert City' },
+  { id: 5, name: 'Hampi', state: 'Karnataka', img: '/images/dest-hampi.jpg', desc: 'Ancient Ruins' }
 ];
 
 const FeatureGrid = () => {

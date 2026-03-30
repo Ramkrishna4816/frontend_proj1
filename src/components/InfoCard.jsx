@@ -21,9 +21,9 @@ const TABS = ['Gallery', 'Facts', 'Itinerary'];
 
 const InfoCard = ({ state, onStartTrip, onClose }) => {
   const [imgIdx, setImgIdx] = useState(0);
-  const [tab, setTab]       = useState('Gallery');
-  const [liked, setLiked]   = useState(false);
-  const [likeN, setLikeN]   = useState(() => Math.floor(Math.random() * 600 + 200));
+  const [tab, setTab] = useState('Gallery');
+  const [liked, setLiked] = useState(false);
+  const [likeN, setLikeN] = useState(() => Math.floor(Math.random() * 600 + 200));
 
   useEffect(() => {
     setImgIdx(0);
@@ -33,7 +33,7 @@ const InfoCard = ({ state, onStartTrip, onClose }) => {
 
   if (!state) return null;
 
-  const places    = state.places    ?? [];
+  const places = state.places ?? [];
   const moreFacts = state.moreFacts ?? [];
   const itinerary = state.itinerary ?? [];
 
@@ -85,9 +85,9 @@ const InfoCard = ({ state, onStartTrip, onClose }) => {
         {/* ── Stats Strip ── */}
         <div className="stats-strip">
           {[
-            { icon: '🏛️', label: 'Places',   val: places.length, suffix: '' },
+            { icon: '🏛️', label: 'Places', val: places.length, suffix: '' },
             { icon: '📍', label: 'Distance', val: state.stats?.distance ?? 380, suffix: ' km' },
-            { icon: '☀️', label: 'Season',   text: state.stats?.season ?? 'Oct–Mar' },
+            { icon: '☀️', label: 'Season', text: state.stats?.season ?? 'Oct–Mar' },
           ].map((s, i) => (
             <div key={i} className="stat-chip">
               <span className="stat-icon">{s.icon}</span>
