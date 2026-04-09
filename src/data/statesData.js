@@ -49,19 +49,19 @@ export const statesData = {
         day: "Day 1",
         name: "Hampi",
         img: "/images/ka-hampi.jpg",
-        pos: { x: 193, y: 473 }
+        pos: { x: 171, y: 468 }
       },
       {
         day: "Day 2",
         name: "Coorg",
         img: "/images/ka-coorg.jpg",
-        pos: { x: 143, y: 570 }
+        pos: { x: 139, y: 558 }
       },
       {
         day: "Day 3",
         name: "Mysore",
         img: "/images/ka-mysore.jpg",
-        pos: { x: 170, y: 574 }
+        pos: { x: 157, y: 549 }
       }
     ]
   },
@@ -113,19 +113,19 @@ export const statesData = {
         day: "Day 1",
         name: "Mumbai",
         img: "/images/mh-mumbai.jpg",
-        pos: { x: 106, y: 423 }
+        pos: { x: 100, y: 437 }
       },
       {
         day: "Day 2",
         name: "Lonavala",
         img: "/images/mh-lonavala.jpg",
-        pos: { x: 120, y: 424 }
+        pos: { x: 111, y: 430 }
       },
       {
         day: "Day 3",
         name: "Aurangabad",
         img: "/images/mh-ajanta.jpg",
-        pos: { x: 172, y: 393 }
+        pos: { x: 162, y: 392 }
       }
     ]
   },
@@ -177,19 +177,19 @@ export const statesData = {
         day: "Day 1",
         name: "Chennai",
         img: "/images/tn-chennai.jpg",
-        pos: { x: 258, y: 578 }
+        pos: { x: 238, y: 563 }
       },
       {
         day: "Day 2",
         name: "Ooty",
         img: "/images/tn-ooty.jpg",
-        pos: { x: 183, y: 589 }
+        pos: { x: 182, y: 591 }
       },
       {
         day: "Day 3",
         name: "Madurai",
         img: "/images/tn-madurai.jpg",
-        pos: { x: 208, y: 635 }
+        pos: { x: 203, y: 621 }
       }
     ]
   },
@@ -241,19 +241,19 @@ export const statesData = {
         day: "Day 1",
         name: "Hyderabad",
         img: "/images/tg-hyderabad.jpg",
-        pos: { x: 245, y: 458 }
+        pos: { x: 218, y: 452 }
       },
       {
         day: "Day 2",
         name: "Warangal",
         img: "/images/tg-warangal.jpg",
-        pos: { x: 262, y: 444 }
+        pos: { x: 252, y: 440 }
       },
       {
         day: "Day 3",
         name: "Nagarjunasagar",
         img: "/images/tg-nagarjunasagar.jpg",
-        pos: { x: 250, y: 478 }
+        pos: { x: 228, y: 475 }
       }
     ]
   },
@@ -305,19 +305,19 @@ export const statesData = {
         day: "Day 1",
         name: "Visakhapatnam",
         img: "/images/ap-visakhapatnam.jpg",
-        pos: { x: 322, y: 462 }
+        pos: { x: 303, y: 459 }
       },
       {
         day: "Day 2",
         name: "Araku Valley",
         img: "/images/ap-araku.jpg",
-        pos: { x: 318, y: 451 }
+        pos: { x: 297, y: 449 }
       },
       {
         day: "Day 3",
         name: "Tirupati",
         img: "/images/ap-tirupati.jpg",
-        pos: { x: 257, y: 538 }
+        pos: { x: 230, y: 536 }
       }
     ]
   },
@@ -369,19 +369,19 @@ export const statesData = {
         day: "Day 1",
         name: "Rann of Kutch",
         img: "/images/gj-rann-of-kutch.jpg",
-        pos: { x: 42, y: 303 }
+        pos: { x: 21, y: 313 }
       },
       {
         day: "Day 2",
         name: "Gir National Park",
         img: "/images/gj-gir-national-park.jpg",
-        pos: { x: 57, y: 345 }
+        pos: { x: 66, y: 390 }
       },
       {
         day: "Day 3",
         name: "Dwarka",
         img: "/images/gj-dwarka.jpg",
-        pos: { x: 27, y: 335 }
+        pos: { x: 18, y: 361 }
       }
     ]
   },
@@ -433,19 +433,19 @@ export const statesData = {
         day: "Day 1",
         name: "Khajuraho",
         img: "/images/mp-khajuraho.jpg",
-        pos: { x: 250, y: 280 }
+        pos: { x: 251, y: 289 }
       },
       {
         day: "Day 2",
         name: "Sanchi",
         img: "/images/mp-sanchi.jpg",
-        pos: { x: 220, y: 310 }
+        pos: { x: 185, y: 319 }
       },
       {
         day: "Day 3",
         name: "Bandhavgarh",
         img: "/images/mp-bandhavgarh.jpg",
-        pos: { x: 300, y: 310 }
+        pos: { x: 258, y: 311 }
       }
     ]
   },
@@ -497,19 +497,19 @@ export const statesData = {
         day: "Day 1",
         name: "Chitrakote Falls",
         img: "/images/ct-chitrakote.jpg",
-        pos: { x: 340, y: 400 }
+        pos: { x: 286, y: 430 }
       },
       {
         day: "Day 2",
         name: "Sirpur",
         img: "/images/ct-sirpur.jpg",
-        pos: { x: 360, y: 360 }
+        pos: { x: 295, y: 388 }
       },
       {
         day: "Day 3",
         name: "Bhoramdeo",
         img: "/images/ct-bhoramdeo.jpg",
-        pos: { x: 320, y: 370 }
+        pos: { x: 278, y: 359 }
       }
     ]
   },
@@ -561,19 +561,19 @@ export const statesData = {
         day: "Day 1",
         name: "Konark",
         img: "/images/or-konark.jpg",
-        pos: { x: 410, y: 380 }
+        pos: { x: 378, y: 395 }
       },
       {
         day: "Day 2",
         name: "Puri",
         img: "/images/or-puri.jpg",
-        pos: { x: 400, y: 395 }
+        pos: { x: 373, y: 406 }
       },
       {
         day: "Day 3",
         name: "Chilika Lake",
         img: "/images/or-chilika.jpg",
-        pos: { x: 380, y: 410 }
+        pos: { x: 353, y: 421 }
       }
     ]
   },
@@ -625,19 +625,19 @@ export const statesData = {
         day: "Day 1",
         name: "Ranchi",
         img: "/images/jh-hundru.jpg",
-        pos: { x: 380, y: 310 }
+        pos: { x: 366, y: 327 }
       },
       {
         day: "Day 2",
         name: "Betla",
         img: "/images/jh-betla.jpg",
-        pos: { x: 340, y: 290 }
+        pos: { x: 342, y: 343 }
       },
       {
         day: "Day 3",
         name: "Deoghar",
         img: "/images/jh-baidyanath.jpg",
-        pos: { x: 400, y: 270 }
+        pos: { x: 389, y: 306 }
       }
     ]
   },
@@ -689,19 +689,19 @@ export const statesData = {
         day: "Day 1",
         name: "Munnar",
         img: "/images/kl-munnar.jpg",
-        pos: { x: 165, y: 605 }
+        pos: { x: 171, y: 590 }
       },
       {
         day: "Day 2",
         name: "Alleppey",
         img: "/images/kl-alleppey.jpg",
-        pos: { x: 167, y: 625 }
+        pos: { x: 161, y: 606 }
       },
       {
         day: "Day 3",
         name: "Wayanad",
         img: "/images/kl-wayanad.jpg",
-        pos: { x: 150, y: 575 }
+        pos: { x: 157, y: 583 }
       }
     ]
   },
@@ -751,19 +751,19 @@ export const statesData = {
         day: "Day 1",
         name: "Patna",
         img: "/images/br-patna.jpg",
-        pos: { x: 365, y: 255 }
+        pos: { x: 365, y: 254 }
       },
       {
         day: "Day 2",
         name: "Nalanda",
         img: "/images/br-nalanda.jpg",
-        pos: { x: 375, y: 265 }
+        pos: { x: 369, y: 271 }
       },
       {
         day: "Day 3",
         name: "Bodh Gaya",
         img: "/images/br-bodhgaya.jpg",
-        pos: { x: 355, y: 275 }
+        pos: { x: 354, y: 287 }
       }
     ]
   },
@@ -813,19 +813,19 @@ export const statesData = {
         day: "Day 1",
         name: "North Goa",
         img: "/images/ga-beaches.jpg",
-        pos: { x: 110, y: 500 }
+        pos: { x: 120, y: 506 }
       },
       {
         day: "Day 2",
         name: "Panaji & Old Goa",
         img: "/images/ga-panaji.jpg",
-        pos: { x: 115, y: 505 }
+        pos: { x: 122, y: 511 }
       },
       {
         day: "Day 3",
         name: "South Goa",
         img: "/images/ga-dudhsagar.jpg",
-        pos: { x: 125, y: 520 }
+        pos: { x: 122, y: 517 }
       }
     ]
   },
@@ -875,19 +875,19 @@ export const statesData = {
         day: "Day 1",
         name: "Jaipur",
         img: "/images/rj-jaipur.jpg",
-        pos: { x: 160, y: 250 }
+        pos: { x: 167, y: 250 }
       },
       {
         day: "Day 2",
         name: "Jodhpur",
         img: "/images/rj-jodhpur.jpg",
-        pos: { x: 110, y: 235 }
+        pos: { x: 90, y: 250 }
       },
       {
         day: "Day 3",
         name: "Udaipur",
         img: "/images/rj-udaipur.jpg",
-        pos: { x: 125, y: 305 }
+        pos: { x: 126, y: 298 }
       }
     ]
   },
@@ -903,9 +903,9 @@ export const statesData = {
       { name: "Neil Island", desc: "Serene coral reefs", img: "/images/an-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Port Blair", pos: { x: 511, y: 599 }, img: "/images/an-img1.jpg" },
-      { day: "Day 2", name: "Havelock", pos: { x: 521, y: 609 }, img: "/images/an-img2.jpg" },
-      { day: "Day 3", name: "Neil Island", pos: { x: 531, y: 619 }, img: "/images/an-img3.jpg" }
+      { day: "Day 1", name: "Port Blair", pos: { x: 517, y: 574 }, img: "/images/an-img1.jpg" },
+      { day: "Day 2", name: "Havelock", pos: { x: 520, y: 584 }, img: "/images/an-img2.jpg" },
+      { day: "Day 3", name: "Neil Island", pos: { x: 520, y: 591 }, img: "/images/an-img3.jpg" }
     ],
     focusId: "an",
     facts: [
@@ -936,9 +936,9 @@ export const statesData = {
       { name: "Bomdila", desc: "Snow-capped Himalayan views", img: "/images/ar-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Tawang", pos: { x: 540, y: 214 }, img: "/images/ar-img1.jpg" },
-      { day: "Day 2", name: "Ziro", pos: { x: 550, y: 224 }, img: "/images/ar-img2.jpg" },
-      { day: "Day 3", name: "Bomdila", pos: { x: 560, y: 234 }, img: "/images/ar-img3.jpg" }
+      { day: "Day 1", name: "Tawang", pos: { x: 514, y: 223 }, img: "/images/ar-img1.jpg" },
+      { day: "Day 2", name: "Ziro", pos: { x: 550, y: 228 }, img: "/images/ar-img2.jpg" },
+      { day: "Day 3", name: "Bomdila", pos: { x: 521, y: 220 }, img: "/images/ar-img3.jpg" }
     ],
     focusId: "ar",
     facts: [
@@ -969,9 +969,9 @@ export const statesData = {
       { name: "Majuli", desc: "World's largest river island", img: "/images/as-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Guwahati", pos: { x: 506, y: 261 }, img: "/images/as-img1.jpg" },
-      { day: "Day 2", name: "Kaziranga", pos: { x: 516, y: 271 }, img: "/images/as-img2.jpg" },
-      { day: "Day 3", name: "Majuli", pos: { x: 526, y: 281 }, img: "/images/as-img3.jpg" }
+      { day: "Day 1", name: "Guwahati", pos: { x: 469, y: 271 }, img: "/images/as-img1.jpg" },
+      { day: "Day 2", name: "Kaziranga", pos: { x: 522, y: 263 }, img: "/images/as-img2.jpg" },
+      { day: "Day 3", name: "Majuli", pos: { x: 535, y: 253 }, img: "/images/as-img3.jpg" }
     ],
     focusId: "as",
     facts: [
@@ -1002,9 +1002,9 @@ export const statesData = {
       { name: "Rose Garden", desc: "Asia's largest botanical garden", img: "/images/ch-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Rock Garden", pos: { x: 169, y: 150 }, img: "/images/ch-img1.jpg" },
-      { day: "Day 2", name: "Sukhna Lake", pos: { x: 179, y: 160 }, img: "/images/ch-img2.jpg" },
-      { day: "Day 3", name: "Rose Garden", pos: { x: 189, y: 170 }, img: "/images/ch-img3.jpg" }
+      { day: "Day 1", name: "Rock Garden", pos: { x: 180, y: 160 }, img: "/images/ch-img1.jpg" },
+      { day: "Day 2", name: "Sukhna Lake", pos: { x: 180, y: 160 }, img: "/images/ch-img2.jpg" },
+      { day: "Day 3", name: "Rose Garden", pos: { x: 180, y: 160 }, img: "/images/ch-img3.jpg" }
     ],
     focusId: "ch",
     facts: [
@@ -1035,9 +1035,9 @@ export const statesData = {
       { name: "Devka Beach", desc: "Popular tourist destination", img: "/images/dd-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Diu Fort", pos: { x: 44, y: 381 }, img: "/images/dd-img1.jpg" },
+      { day: "Day 1", name: "Diu Fort", pos: { x: 54, y: 391 }, img: "/images/dd-img1.jpg" },
       { day: "Day 2", name: "Nagoa Beach", pos: { x: 54, y: 391 }, img: "/images/dd-img2.jpg" },
-      { day: "Day 3", name: "Devka Beach", pos: { x: 64, y: 401 }, img: "/images/dd-img3.jpg" }
+      { day: "Day 3", name: "Devka Beach", pos: { x: 54, y: 391 }, img: "/images/dd-img3.jpg" }
     ],
     focusId: "dd",
     facts: [
@@ -1068,9 +1068,9 @@ export const statesData = {
       { name: "India Gate", desc: "Iconic war memorial arch", img: "/images/dl-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Red Fort", pos: { x: 176, y: 200 }, img: "/images/dl-img1.jpg" },
+      { day: "Day 1", name: "Red Fort", pos: { x: 184, y: 208 }, img: "/images/dl-img1.jpg" },
       { day: "Day 2", name: "Qutub Minar", pos: { x: 186, y: 210 }, img: "/images/dl-img2.jpg" },
-      { day: "Day 3", name: "India Gate", pos: { x: 196, y: 220 }, img: "/images/dl-img3.jpg" }
+      { day: "Day 3", name: "India Gate", pos: { x: 188, y: 213 }, img: "/images/dl-img3.jpg" }
     ],
     focusId: "dl",
     facts: [
@@ -1101,9 +1101,9 @@ export const statesData = {
       { name: "Tribal Museum", desc: "Preserving indigenous heritage", img: "/images/dn-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Vanganga Lake", pos: { x: 92, y: 395 }, img: "/images/dn-img1.jpg" },
+      { day: "Day 1", name: "Vanganga Lake", pos: { x: 102, y: 405 }, img: "/images/dn-img1.jpg" },
       { day: "Day 2", name: "Dudhni Beach", pos: { x: 102, y: 405 }, img: "/images/dn-img2.jpg" },
-      { day: "Day 3", name: "Tribal Museum", pos: { x: 112, y: 415 }, img: "/images/dn-img3.jpg" }
+      { day: "Day 3", name: "Tribal Museum", pos: { x: 102, y: 405 }, img: "/images/dn-img3.jpg" }
     ],
     focusId: "dn",
     facts: [
@@ -1134,9 +1134,9 @@ export const statesData = {
       { name: "Dharamshala", desc: "Home of the Dalai Lama", img: "/images/hp-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Shimla", pos: { x: 181, y: 123 }, img: "/images/hp-img1.jpg" },
-      { day: "Day 2", name: "Manali", pos: { x: 191, y: 133 }, img: "/images/hp-img2.jpg" },
-      { day: "Day 3", name: "Dharamshala", pos: { x: 201, y: 143 }, img: "/images/hp-img3.jpg" }
+      { day: "Day 1", name: "Shimla", pos: { x: 205, y: 149 }, img: "/images/hp-img1.jpg" },
+      { day: "Day 2", name: "Manali", pos: { x: 191, y: 115 }, img: "/images/hp-img2.jpg" },
+      { day: "Day 3", name: "Dharamshala", pos: { x: 169, y: 126 }, img: "/images/hp-img3.jpg" }
     ],
     focusId: "hp",
     facts: [
@@ -1167,9 +1167,9 @@ export const statesData = {
       { name: "Gurugram", desc: "Modern corporate and urban hub", img: "/images/hr-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Kurukshetra", pos: { x: 154, y: 185 }, img: "/images/hr-img1.jpg" },
-      { day: "Day 2", name: "Panipat", pos: { x: 164, y: 195 }, img: "/images/hr-img2.jpg" },
-      { day: "Day 3", name: "Gurugram", pos: { x: 174, y: 205 }, img: "/images/hr-img3.jpg" }
+      { day: "Day 1", name: "Kurukshetra", pos: { x: 169, y: 176 }, img: "/images/hr-img1.jpg" },
+      { day: "Day 2", name: "Panipat", pos: { x: 168, y: 182 }, img: "/images/hr-img2.jpg" },
+      { day: "Day 3", name: "Gurugram", pos: { x: 171, y: 213 }, img: "/images/hr-img3.jpg" }
     ],
     focusId: "hr",
     facts: [
@@ -1200,9 +1200,9 @@ export const statesData = {
       { name: "Pahalgam", desc: "Valley of shepherds", img: "/images/jk-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Srinagar", pos: { x: 163, y: 51 }, img: "/images/jk-img1.jpg" },
-      { day: "Day 2", name: "Gulmarg", pos: { x: 173, y: 61 }, img: "/images/jk-img2.jpg" },
-      { day: "Day 3", name: "Pahalgam", pos: { x: 183, y: 71 }, img: "/images/jk-img3.jpg" }
+      { day: "Day 1", name: "Srinagar", pos: { x: 173, y: 54 }, img: "/images/jk-img1.jpg" },
+      { day: "Day 2", name: "Gulmarg", pos: { x: 157, y: 48 }, img: "/images/jk-img2.jpg" },
+      { day: "Day 3", name: "Pahalgam", pos: { x: 189, y: 61 }, img: "/images/jk-img3.jpg" }
     ],
     focusId: "jk",
     facts: [
@@ -1233,9 +1233,9 @@ export const statesData = {
       { name: "Kavaratti", desc: "Scenic island capital", img: "/images/ld-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Agatti", pos: { x: 89, y: 617 }, img: "/images/ld-img1.jpg" },
-      { day: "Day 2", name: "Bangaram", pos: { x: 99, y: 627 }, img: "/images/ld-img2.jpg" },
-      { day: "Day 3", name: "Kavaratti", pos: { x: 109, y: 637 }, img: "/images/ld-img3.jpg" }
+      { day: "Day 1", name: "Agatti", pos: { x: 102, y: 626 }, img: "/images/ld-img1.jpg" },
+      { day: "Day 2", name: "Bangaram", pos: { x: 102, y: 626 }, img: "/images/ld-img2.jpg" },
+      { day: "Day 3", name: "Kavaratti", pos: { x: 102, y: 626 }, img: "/images/ld-img3.jpg" }
     ],
     focusId: "ld",
     facts: [
@@ -1266,9 +1266,9 @@ export const statesData = {
       { name: "Dawki", desc: "Crystal clear Umngot River", img: "/images/ml-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Shillong", pos: { x: 474, y: 273 }, img: "/images/ml-img1.jpg" },
-      { day: "Day 2", name: "Cherrapunji", pos: { x: 484, y: 283 }, img: "/images/ml-img2.jpg" },
-      { day: "Day 3", name: "Dawki", pos: { x: 494, y: 293 }, img: "/images/ml-img3.jpg" }
+      { day: "Day 1", name: "Shillong", pos: { x: 480, y: 281 }, img: "/images/ml-img1.jpg" },
+      { day: "Day 2", name: "Cherrapunji", pos: { x: 478, y: 285 }, img: "/images/ml-img2.jpg" },
+      { day: "Day 3", name: "Dawki", pos: { x: 490, y: 285 }, img: "/images/ml-img3.jpg" }
     ],
     focusId: "ml",
     facts: [
@@ -1299,9 +1299,9 @@ export const statesData = {
       { name: "Kangla Fort", desc: "Seat of the ancient kings", img: "/images/mn-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Imphal", pos: { x: 527, y: 291 }, img: "/images/mn-img1.jpg" },
-      { day: "Day 2", name: "Loktak Lake", pos: { x: 537, y: 301 }, img: "/images/mn-img2.jpg" },
-      { day: "Day 3", name: "Kangla Fort", pos: { x: 547, y: 311 }, img: "/images/mn-img3.jpg" }
+      { day: "Day 1", name: "Imphal", pos: { x: 535, y: 300 }, img: "/images/mn-img1.jpg" },
+      { day: "Day 2", name: "Loktak Lake", pos: { x: 534, y: 308 }, img: "/images/mn-img2.jpg" },
+      { day: "Day 3", name: "Kangla Fort", pos: { x: 538, y: 301 }, img: "/images/mn-img3.jpg" }
     ],
     focusId: "mn",
     facts: [
@@ -1332,9 +1332,9 @@ export const statesData = {
       { name: "Lunglei", desc: "Bridge of rock and scenic views", img: "/images/mz-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Aizawl", pos: { x: 506, y: 327 }, img: "/images/mz-img1.jpg" },
-      { day: "Day 2", name: "Champhai", pos: { x: 516, y: 337 }, img: "/images/mz-img2.jpg" },
-      { day: "Day 3", name: "Lunglei", pos: { x: 526, y: 347 }, img: "/images/mz-img3.jpg" }
+      { day: "Day 1", name: "Aizawl", pos: { x: 513, y: 319 }, img: "/images/mz-img1.jpg" },
+      { day: "Day 2", name: "Champhai", pos: { x: 520, y: 334 }, img: "/images/mz-img2.jpg" },
+      { day: "Day 3", name: "Lunglei", pos: { x: 513, y: 348 }, img: "/images/mz-img3.jpg" }
     ],
     focusId: "mz",
     facts: [
@@ -1365,9 +1365,9 @@ export const statesData = {
       { name: "Mokokchung", desc: "Cultural center of the Ao tribe", img: "/images/nl-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Kohima", pos: { x: 536, y: 260 }, img: "/images/nl-img1.jpg" },
-      { day: "Day 2", name: "Dimapur", pos: { x: 546, y: 270 }, img: "/images/nl-img2.jpg" },
-      { day: "Day 3", name: "Mokokchung", pos: { x: 556, y: 280 }, img: "/images/nl-img3.jpg" }
+      { day: "Day 1", name: "Kohima", pos: { x: 544, y: 277 }, img: "/images/nl-img1.jpg" },
+      { day: "Day 2", name: "Dimapur", pos: { x: 536, y: 274 }, img: "/images/nl-img2.jpg" },
+      { day: "Day 3", name: "Mokokchung", pos: { x: 552, y: 261 }, img: "/images/nl-img3.jpg" }
     ],
     focusId: "nl",
     facts: [
@@ -1398,9 +1398,9 @@ export const statesData = {
       { name: "Jalandhar", desc: "Ancient city with rich sports culture", img: "/images/pb-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Amritsar", pos: { x: 141, y: 142 }, img: "/images/pb-img1.jpg" },
-      { day: "Day 2", name: "Ludhiana", pos: { x: 151, y: 152 }, img: "/images/pb-img2.jpg" },
-      { day: "Day 3", name: "Jalandhar", pos: { x: 161, y: 162 }, img: "/images/pb-img3.jpg" }
+      { day: "Day 1", name: "Amritsar", pos: { x: 134, y: 132 }, img: "/images/pb-img1.jpg" },
+      { day: "Day 2", name: "Ludhiana", pos: { x: 152, y: 155 }, img: "/images/pb-img2.jpg" },
+      { day: "Day 3", name: "Jalandhar", pos: { x: 141, y: 144 }, img: "/images/pb-img3.jpg" }
     ],
     focusId: "pb",
     facts: [
@@ -1431,9 +1431,9 @@ export const statesData = {
       { name: "Promenade", desc: "French colonial seaside boulevard", img: "/images/py-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Paradise Beach", pos: { x: 258, y: 536 }, img: "/images/py-img1.jpg" },
-      { day: "Day 2", name: "Auroville", pos: { x: 268, y: 546 }, img: "/images/py-img2.jpg" },
-      { day: "Day 3", name: "Promenade", pos: { x: 278, y: 556 }, img: "/images/py-img3.jpg" }
+      { day: "Day 1", name: "Paradise Beach", pos: { x: 260, y: 561 }, img: "/images/py-img1.jpg" },
+      { day: "Day 2", name: "Auroville", pos: { x: 260, y: 561 }, img: "/images/py-img2.jpg" },
+      { day: "Day 3", name: "Promenade", pos: { x: 260, y: 561 }, img: "/images/py-img3.jpg" }
     ],
     focusId: "py",
     facts: [
@@ -1464,9 +1464,9 @@ export const statesData = {
       { name: "Nathula Pass", desc: "Historic Silk Route passage", img: "/images/sk-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Gangtok", pos: { x: 415, y: 225 }, img: "/images/sk-img1.jpg" },
-      { day: "Day 2", name: "Pelling", pos: { x: 425, y: 235 }, img: "/images/sk-img2.jpg" },
-      { day: "Day 3", name: "Nathula Pass", pos: { x: 435, y: 245 }, img: "/images/sk-img3.jpg" }
+      { day: "Day 1", name: "Gangtok", pos: { x: 427, y: 238 }, img: "/images/sk-img1.jpg" },
+      { day: "Day 2", name: "Pelling", pos: { x: 421, y: 235 }, img: "/images/sk-img2.jpg" },
+      { day: "Day 3", name: "Nathula Pass", pos: { x: 429, y: 233 }, img: "/images/sk-img3.jpg" }
     ],
     focusId: "sk",
     facts: [
@@ -1497,9 +1497,9 @@ export const statesData = {
       { name: "Unakoti", desc: "Enigmatic ancient rock carvings", img: "/images/tr-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Agartala", pos: { x: 483, y: 315 }, img: "/images/tr-img1.jpg" },
-      { day: "Day 2", name: "Neermahal", pos: { x: 493, y: 325 }, img: "/images/tr-img2.jpg" },
-      { day: "Day 3", name: "Unakoti", pos: { x: 503, y: 335 }, img: "/images/tr-img3.jpg" }
+      { day: "Day 1", name: "Agartala", pos: { x: 488, y: 324 }, img: "/images/tr-img1.jpg" },
+      { day: "Day 2", name: "Neermahal", pos: { x: 493, y: 327 }, img: "/images/tr-img2.jpg" },
+      { day: "Day 3", name: "Unakoti", pos: { x: 494, y: 314 }, img: "/images/tr-img3.jpg" }
     ],
     focusId: "tr",
     facts: [
@@ -1530,9 +1530,9 @@ export const statesData = {
       { name: "Lucknow", desc: "City of Nawabs and culture", img: "/images/up-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Agra", pos: { x: 255, y: 235 }, img: "/images/up-img1.jpg" },
-      { day: "Day 2", name: "Varanasi", pos: { x: 265, y: 245 }, img: "/images/up-img2.jpg" },
-      { day: "Day 3", name: "Lucknow", pos: { x: 275, y: 255 }, img: "/images/up-img3.jpg" }
+      { day: "Day 1", name: "Agra", pos: { x: 218, y: 231 }, img: "/images/up-img1.jpg" },
+      { day: "Day 2", name: "Varanasi", pos: { x: 313, y: 253 }, img: "/images/up-img2.jpg" },
+      { day: "Day 3", name: "Lucknow", pos: { x: 256, y: 237 }, img: "/images/up-img3.jpg" }
     ],
     focusId: "up",
     facts: [
@@ -1563,9 +1563,9 @@ export const statesData = {
       { name: "Nainital", desc: "Scenic lake district", img: "/images/ut-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Dehradun", pos: { x: 222, y: 165 }, img: "/images/ut-img1.jpg" },
-      { day: "Day 2", name: "Rishikesh", pos: { x: 232, y: 175 }, img: "/images/ut-img2.jpg" },
-      { day: "Day 3", name: "Nainital", pos: { x: 242, y: 185 }, img: "/images/ut-img3.jpg" }
+      { day: "Day 1", name: "Dehradun", pos: { x: 211, y: 175 }, img: "/images/ut-img1.jpg" },
+      { day: "Day 2", name: "Rishikesh", pos: { x: 218, y: 178 }, img: "/images/ut-img2.jpg" },
+      { day: "Day 3", name: "Nainital", pos: { x: 247, y: 178 }, img: "/images/ut-img3.jpg" }
     ],
     focusId: "ut",
     facts: [
@@ -1596,9 +1596,9 @@ export const statesData = {
       { name: "Sunderbans", desc: "Largest mangrove forest reserve", img: "/images/wb-img3.jpg" }
     ],
     itinerary: [
-      { day: "Day 1", name: "Kolkata", pos: { x: 402, y: 300 }, img: "/images/wb-img1.jpg" },
-      { day: "Day 2", name: "Darjeeling", pos: { x: 412, y: 310 }, img: "/images/wb-img2.jpg" },
-      { day: "Day 3", name: "Sunderbans", pos: { x: 422, y: 320 }, img: "/images/wb-img3.jpg" }
+      { day: "Day 1", name: "Kolkata", pos: { x: 411, y: 344 }, img: "/images/wb-img1.jpg" },
+      { day: "Day 2", name: "Darjeeling", pos: { x: 416, y: 257 }, img: "/images/wb-img2.jpg" },
+      { day: "Day 3", name: "Sunderbans", pos: { x: 422, y: 357 }, img: "/images/wb-img3.jpg" }
     ],
     focusId: "wb",
     facts: [

@@ -1,19 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, animate } from 'framer-motion';
 
-/**
- * TravelCar
- * Props:
- *   itinerary – array of { day, name, img, pos: { x, y } }
- *
- * Features:
- *  • Smooth physics-based movement via Framer Motion useMotionValue
- *  • Car SVG rotates to face the direction of travel
- *  • Dotted route path drawn across all waypoints
- *  • Glowing waypoint markers; active one pulses orange
- *  • Rich info-bubble pops up at each stop (thumbnail + name + day)
- *  • Animated speed lines while the car is moving
- */
 const TravelCar = ({ itinerary }) => {
   const [activeIdx, setActiveIdx] = useState(0);
   const [angle, setAngle]         = useState(0);

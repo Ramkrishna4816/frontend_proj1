@@ -17,6 +17,61 @@ const CountUp = ({ end, suffix = '' }) => {
   return <>{val.toLocaleString()}{suffix}</>;
 };
 
+/* ── Distance Calculation ── */
+const haversineDistance = (lat1, lon1, lat2, lon2) => {
+  const R = 6371; // Earth's radius in km
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+};
+
+const calculateTotalDistance = (itinerary) => {
+  if (!itinerary || itinerary.length < 2) return "Distance unavailable";
+
+  let totalDist = 0;
+  for (let i = 0; i < itinerary.length - 1; i++) {
+    const pt1 = itinerary[i];
+    const pt2 = itinerary[i + 1];
+
+    const getCoord = (pt) => {
+      // Prioritize explicit lat/lng if provided
+      if (pt.lat !== undefined && pt.lng !== undefined) {
+         return { lat: pt.lat, lng: pt.lng };
+      }
+      // If missing, map existing SVG pos coordinates to approximate real-world lat/lng
+      // (SVG viewBox: 611.86 x 695.70 maps to India bounding box approx)
+      if (pt.pos?.x !== undefined && pt.pos?.y !== undefined) {
+        return {
+          lat: 37.1 - (pt.pos.y / 695.7) * 29.0,
+          lng: 68.2 + (pt.pos.x / 611.86) * 29.2
+        };
+      }
+      return { lat: NaN, lng: NaN };
+    };
+
+    const c1 = getCoord(pt1);
+    const c2 = getCoord(pt2);
+
+    // Validate that values are properly parsed as numbers before calculation
+    const lat1 = Number(c1.lat);
+    const lon1 = Number(c1.lng);
+    const lat2 = Number(c2.lat);
+    const lon2 = Number(c2.lng);
+
+    if (isNaN(lat1) || isNaN(lon1) || isNaN(lat2) || isNaN(lon2)) {
+      return "Distance unavailable";
+    }
+
+    totalDist += haversineDistance(lat1, lon1, lat2, lon2);
+  }
+  return Math.round(totalDist);
+};
+
 const TABS = ['Gallery', 'Facts', 'Itinerary'];
 
 const InfoCard = ({ state, onStartTrip, onClose }) => {
@@ -36,6 +91,7 @@ const InfoCard = ({ state, onStartTrip, onClose }) => {
   const places = state.places ?? [];
   const moreFacts = state.moreFacts ?? [];
   const itinerary = state.itinerary ?? [];
+  const calculatedDistance = calculateTotalDistance(itinerary);
 
   const next = () => setImgIdx(i => (i + 1) % places.length);
   const prev = () => setImgIdx(i => (i - 1 + places.length) % places.length);
@@ -86,7 +142,13 @@ const InfoCard = ({ state, onStartTrip, onClose }) => {
         <div className="stats-strip">
           {[
             { icon: '🏛️', label: 'Places', val: places.length, suffix: '' },
-            { icon: '📍', label: 'Distance', val: state.stats?.distance ?? 380, suffix: ' km' },
+            { 
+              icon: '📍', 
+              label: 'Distance', 
+              val: typeof calculatedDistance === 'number' ? calculatedDistance : 0, 
+              suffix: ' km', 
+              text: typeof calculatedDistance === 'string' ? calculatedDistance : null 
+            },
             { icon: '☀️', label: 'Season', text: state.stats?.season ?? 'Oct–Mar' },
           ].map((s, i) => (
             <div key={i} className="stat-chip">
